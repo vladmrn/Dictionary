@@ -4,4 +4,4 @@
 
 Please insert words to create a list. Introduce another word and check if belongs to the previously created list.
 
-*This project has a demo [here](https://vladmrn.github.io/guess-the-button-unlimited/).*
+*This project has a demo [here](https://vladmrn.github.io/Dictionary/).*
