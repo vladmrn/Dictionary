@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(183, 209, 201);
+    background-blend-mode: screen;
+}
+
+.navbar {
+    margin: auto;
+    width: 80%;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+}
+
+.card {
+    margin: auto;
+    width: 80%;
+}
+
+#listItems {
+    margin: 0;
+    padding: 0;
+}
+
+#the-list li {
+    padding: 10px 5px;
+    border: 1px solid #eee;
+}
+
+.message-successful-inquiry {
+    visibility: hidden;
+}
+
+.message-insuccessful-inquiry {
+    visibility: hidden;
+}
