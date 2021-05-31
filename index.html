@@ -24,11 +24,11 @@
       <button type="button" class="btn btn-light" onClick="refreshPage()">HOME</button>
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="text" placeholder="Add a new word" aria-label="Add to list" onfocus="this.value=''" id="inputField">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="inputButton">Add</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="inputButton" onclick="addWord()">Add</button>
       </form>
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="text" placeholder="Search word" onfocus="this.value=''" id="searchWordBar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="searchWordButton">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="searchWordButton" onclick="searchWord()">Search</button>
       </form>
     </nav>
     <br>
@@ -42,7 +42,7 @@
     <div class="card message-successful-inquiry">
       <div class="card-body">
         <h5 class="card-title">The word: <var id="searchedWord">text</var></h5>
-        <p class="card-text">it is in the dictionary.</p>
+        <p class="card-text">could be find in the dictionary.</p>
       </div>
     </div>
     <div class="card message-insuccessful-inquiry">

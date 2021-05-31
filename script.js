@@ -2,8 +2,7 @@ function refreshPage(){
     window.location.reload();
 } 
 
-document.getElementById("inputButton").onclick  = function() {
-
+function addWord() {
     var node = document.createElement("li");
     var text = document.getElementById("inputField").value.toLowerCase(); 
     var textnode=document.createTextNode(text);
@@ -11,7 +10,7 @@ document.getElementById("inputButton").onclick  = function() {
     document.getElementById("listItems").appendChild(node);
 }
 
-document.getElementById("searchWordButton").onclick  = function() {
+function searchWord() {
     $(".message-successful-inquiry").css("visibility", "hidden");
     $(".message-insuccessful-inquiry").css("visibility", "hidden");
     var text = document.getElementById("searchWordBar").value.toLowerCase(); 
